@@ -1,0 +1,22 @@
+{
+    "name": "mahbub500/plugin",
+    "type": "library",
+    "description": "Plugin Base Class For Test",
+    "keywords": ["plugin","mahbub500"],
+    "homepage": "https://github.com/mahbub500/wp-plugin-base",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Mahbub",
+            "email": "mahbubmr500@gmail.com",
+            "homepage": "https://codexpert.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
