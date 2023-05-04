@@ -1,5 +1,5 @@
 {
-    "name": "ourcodeworld/hello-composer",
+    "name": "mahbub500/plugin",
     "description": "My first packagist package",
     "type": "package",
     "require": {
