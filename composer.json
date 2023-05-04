@@ -17,6 +17,8 @@
         "php": ">=5.3.0"
     },
     "autoload": {
-        "classmap": ["src/"]
+        "psr-4": {
+            "mahbub500\\plugin\\" : "src/",
+        },
     }
 }
