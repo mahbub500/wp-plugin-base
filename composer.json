@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "mahbub500\\plugin\\" : "src/",
+            "Mahbub500\\plugin\\" : "src/"
         }
     }
 }
