@@ -1,19 +1,21 @@
 {
-    "name": "mahbub500/plugin",
-    "description": "My first packagist package",
-    "type": "package",
-    "require": {
-        "php": ">=5.3.0"
-    },
-    "license": "mit",
     "authors": [
         {
-            "name": "Mahbub",
-            "email": "mahbubmr500@email.com"
+            "name": "Codexpert",
+            "email": "hi@codexpert.io"
         }
     ],
-    "minimum-stability": "dev",
+    "require": {
+        "codexpert/plugin": "dev-master",
+        "pluggable/plugin": "dev-master",
+        "pluggable/marketing": "dev-master"
+    },
     "autoload": {
-        "classmap":["src/"]
+        "psr-4": {
+            "Codexpert\\CX_Plugin\\" : "classes/",
+            "Codexpert\\CX_Plugin\\App\\" : "app/",
+            "Codexpert\\CX_Plugin\\API\\" : "api/"
+        },
+        "files": []
     }
 }
